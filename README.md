@@ -115,7 +115,7 @@ bgWrapper.cameraAnimateTo(-800);
 
 动画调用方法:
 
-value: 动画参数；
+value: 动画参数， 主要以摄像机理念来生成视差，如： 摄像机初始为0，往左移为负数，视差往右移动；
 
 animateProps: { duration, ease }; 替换初始设置的动画值;
 
