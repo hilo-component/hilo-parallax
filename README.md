@@ -5,7 +5,7 @@
 ## Install
 
 ```
-npm i @ali/hilo-parallax
+npm i hilo-parallax
 ```
 
 [![hilo-parallax](https://nodei.co/npm/hilo-parallax.png)](https://npmjs.org/package/hilo-parallax)
