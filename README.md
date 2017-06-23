@@ -36,6 +36,7 @@ npm i hilo-parallax
 
 ## Usage
 
+
 ```js
 import Stage from 'hilojs/view/Stage';
 import Ticker from 'hilojs/util/Ticker';

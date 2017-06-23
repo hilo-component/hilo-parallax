@@ -218,6 +218,7 @@ export default class ParallaxContainer extends Container {
     if (isReset) {
       this.animateQueue = [];
     }
+
     this.animateQueue.push({
       type: this.type,
       config,
