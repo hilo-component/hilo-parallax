@@ -1,0 +1,70 @@
+{
+  "name": "hilo-parallax",
+  "version": "0.0.1",
+  "description": "hilo parallax container ",
+  "keywords": [
+    "hilo",
+    "parallax",
+    "hilo-parallax",
+    "container"
+  ],
+  "homepage": "https://github.com/hilo-component/hilo-parallax",
+  "files": [
+    "lib",
+    "es"
+  ],
+  "main": "lib/index",
+  "entry": {
+    "hilo-parallax": [
+      "./assets/index.less",
+      "./src/index.js"
+    ]
+  },
+  "author": "155259966@qq.com",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:hilo-component/hilo-parallax.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hilo-component/hilo-parallax/issues"
+  },
+  "licenses": "MIT",
+  "config": {
+    "port": 8301
+  },
+  "scripts": {
+    "build": "rc-tools run build",
+    "gh-pages": "rc-tools run gh-pages",
+    "start": "rc-tools run server",
+    "compile": "rc-tools run compile",
+    "pub": "rc-tools run pub",
+    "lint": "eslint ./src ./examples --ext .js",
+    "eslint-fix": "eslint --fix ./src ./examples --ext .js",
+    "karma": "rc-test run karma",
+    "saucelabs": "rc-test run saucelabs",
+    "test": "rc-test run test",
+    "chrome-test": "rc-test run chrome-test",
+    "coverage": "rc-test run coverage"
+  },
+  "dependencies": {
+    "hilojs": "~1.0.4",
+    "hilo-init-stage": "~0.0.1"
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "pre-commit": "1.x",
+    "rc-test": "6.x",
+    "eslint": "^3.8.0",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-babel": "^3.0.0",
+    "eslint-plugin-import": "^2.0.1",
+    "eslint-plugin-jsx-a11y": "^2.0.1",
+    "eslint-plugin-markdown": "*",
+    "eslint-plugin-react": "^6.1.2",
+    "eslint-tinker": "^0.4.0",
+    "rc-tools": "6.x"
+  },
+  "pre-commit": [
+    "lint"
+  ]
+}

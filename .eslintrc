@@ -1,0 +1,15 @@
+{
+  "extends": "eslint-config-airbnb",
+  "parser": "babel-eslint",
+  "rules": {
+    "import/no-unresolved": 0,
+    "no-mixed-operators": 0,
+    "react/prefer-stateless-function": 0,
+    "no-undef": 0,
+    "no-useless-escape": 0,
+    "import/no-webpack-loader-syntax": 0,
+    "comma-dangle": ["error", "always-multiline"],
+    "no-underscore-dangle": 0,
+    "no-new": 0
+  }
+}
