@@ -1659,7 +1659,7 @@ var initStage = function () {
         }
         dom.style.display = s;
       });
-      var root = document.querySelector('body > .example');
+      var root = document.querySelector('body .example');
       var container = document.querySelector('.container');
       if (container) {
         if (s === 'none') {
@@ -2541,6 +2541,7 @@ var ParallaxContainer = function (_Container) {
       if (isReset) {
         this.animateQueue = [];
       }
+
       this.animateQueue.push({
         type: this.type,
         config: config,
